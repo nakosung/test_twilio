@@ -1,0 +1,8 @@
+---
+prefix: http://--your-url--
+twilio:
+  sid: --your-twilio-sid--
+  authToken: --your-twilio-auth-token--
+  call:
+    from: --your-calling-number--
+    applicationSid: --your-app-sid--

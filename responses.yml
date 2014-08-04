@@ -1,0 +1,21 @@
+- request:
+  - play: hello
+  - input: good_sleep
+- good_sleep:
+  - input: had_breakfast
+  - play: timeout
+- had_breakfast:
+  - record: record
+  - play: timeout
+- record:
+   1: 
+   - play: you_had_breakfast
+   - play: done
+   default:
+   - play: done
+- incoming:
+  - play: welcome
+- good_sleep:
+  - input: had_breakfast
+  - play: timeout
+  
