@@ -7,7 +7,7 @@ twilio-test
  - Sample script is spoken with Korean.
 
 * How to run
- - first set up your own conf.yml
+ - write your own ```conf.yml```
 ```
 npm i gulp -g
 npm i
